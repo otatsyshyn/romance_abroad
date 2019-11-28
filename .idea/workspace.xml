@@ -27,6 +27,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -39,11 +44,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainPage.testSignIn">
-    <configuration name="MainPage.testBlog" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RegistrationTests.testSignIn">
+    <configuration name="RegistrationTests.testBlog" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testBlog" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -52,10 +57,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testHIW" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testHIW" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testHIW" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -64,10 +69,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testHomePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -76,10 +81,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -88,10 +93,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testSignIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -102,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPage.testSignIn" />
-        <item itemvalue="TestNG.MainPage.testRegistration" />
-        <item itemvalue="TestNG.MainPage.testHomePage" />
-        <item itemvalue="TestNG.MainPage.testHIW" />
-        <item itemvalue="TestNG.MainPage.testBlog" />
+        <item itemvalue="TestNG.RegistrationTests.testSignIn" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item itemvalue="TestNG.RegistrationTests.testHomePage" />
+        <item itemvalue="TestNG.RegistrationTests.testHIW" />
+        <item itemvalue="TestNG.RegistrationTests.testBlog" />
       </list>
     </recent_temporary>
   </component>
