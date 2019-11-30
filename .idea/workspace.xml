@@ -21,7 +21,7 @@
   </component>
   <component name="ProjectId" id="1TUNcYArWb9olNevd9VwgRlD0lE" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,19 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.testSignIn">
-    <configuration name="RegistrationTests.testBlog" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JAVA_X" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testBlog" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration (1)">
     <configuration name="RegistrationTests.testHIW" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +62,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.testRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,16 +107,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTests.testRegistration (1)" />
         <item itemvalue="TestNG.RegistrationTests.testSignIn" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.RegistrationTests.testHomePage" />
         <item itemvalue="TestNG.RegistrationTests.testHIW" />
-        <item itemvalue="TestNG.RegistrationTests.testBlog" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\HP\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

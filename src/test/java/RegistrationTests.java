@@ -14,8 +14,4 @@ public class RegistrationTests extends BaseUI {
         driver.findElement(Locators.BUTTON_NEXT).click();
 
     }
-    public void afterActions() {
-
-        //driver.quit();
-    }
 }

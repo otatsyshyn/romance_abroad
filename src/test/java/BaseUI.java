@@ -16,7 +16,7 @@ public class BaseUI {
         driver.manage().window().maximize();
         driver.get(mainUrl);
     }
-      }
+
     @AfterMethod
     public void afterActions() {
 
