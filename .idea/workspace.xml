@@ -21,7 +21,7 @@
   </component>
   <component name="ProjectId" id="1TUNcYArWb9olNevd9VwgRlD0lE" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHubDesktopSetup.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,18 +45,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration (1)">
-    <configuration name="RegistrationTests.testHIW" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JAVA_X" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testHIW" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTests.testHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA_X" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,13 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTests.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTests" />
+      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegistrationTests.testRegistration (1)" />
+        <item itemvalue="TestNG.SearchTests.testSearchPage" />
         <item itemvalue="TestNG.RegistrationTests.testSignIn" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.RegistrationTests.testHomePage" />
-        <item itemvalue="TestNG.RegistrationTests.testHIW" />
       </list>
     </recent_temporary>
   </component>
