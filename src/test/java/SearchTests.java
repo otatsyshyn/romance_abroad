@@ -35,14 +35,5 @@ public class SearchTests extends BaseUI{
         Select select = new Select(driver.findElement(locator));
         select.selectByValue(value);}
 
-     @Test
-    public void testRadioButtons () {
-         if (driver.findElement(By.xpath("//input[@value='V1']")).isSelected()) {
-             System.out.println("This button is selected already");
-         } else {
-             driver.findElement(By.xpath("//input[@value='V3"));
 
-
-         }
-     }
 }
