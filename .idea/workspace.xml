@@ -44,23 +44,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.testSearchPage">
+  <component name="RunManager" selected="TestNG.SearchTests.testRadioButtons">
     <configuration name="MainPageTests.testMainPage2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="testMainPage2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediaTests.testMainPage2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediaTests" />
       <option name="METHOD_NAME" value="testMainPage2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -74,6 +62,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testRadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTests" />
+      <option name="METHOD_NAME" value="testRadioButtons" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.testRadioButtons" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
         <item itemvalue="TestNG.MainPageTests.testMainPage2" />
         <item itemvalue="TestNG.SearchTests.testSearchPage1" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration (1)" />
-        <item itemvalue="TestNG.MediaTests.testMainPage2" />
       </list>
     </recent_temporary>
   </component>

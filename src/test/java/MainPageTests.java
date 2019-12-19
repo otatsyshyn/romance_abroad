@@ -8,6 +8,5 @@ public class MainPageTests extends BaseUI {
         WebElement ele = driver.findElement(Locators.LINK_VIDEO);
         driver.switchTo().frame(ele);
         driver.findElement(Locators.BUTTON_VIDEO).click();
-
     }
 }

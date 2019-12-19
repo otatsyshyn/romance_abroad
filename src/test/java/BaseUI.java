@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseUI {
     WebDriver driver;
     WebDriverWait wait;
-    String mainUrl = "https://romanceabroad.com";
+    String mainUrl = "https://www.computerhope.com/jargon/r/radiobut.htm";
 
     @BeforeMethod
     public void setUp() {

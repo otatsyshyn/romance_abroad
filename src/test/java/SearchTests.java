@@ -20,11 +20,8 @@ public class SearchTests extends BaseUI{
         } catch (InterruptedException e) {
             e.printStackTrace();        }
 
-    getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 3);
+    getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 0);
 
-        /*driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY).click();
-        select.selectByVisibleText("Name");
-*/
 }
     public void getDropDownListByIndex(By locator, int index){
         Select select = new Select(driver.findElement(locator));
@@ -37,4 +34,15 @@ public class SearchTests extends BaseUI{
     public void getDropDownListByValue(By locator, String value){
         Select select = new Select(driver.findElement(locator));
         select.selectByValue(value);}
+
+     @Test
+    public void testRadioButtons () {
+         if (driver.findElement(By.xpath("//input[@value='V1']")).isSelected()) {
+             System.out.println("This button is selected already");
+         } else {
+             driver.findElement(By.xpath("//input[@value='V3"));
+
+
+         }
+     }
 }
