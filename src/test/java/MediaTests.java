@@ -9,6 +9,6 @@ public class MediaTests extends BaseUI{
         currentUrlMedia= driver.getCurrentUrl();
         System.out.println(currentUrlMedia);
         Assert.assertEquals(currentUrlMedia, Data.expectedUrlMedia);
-    }
 
+    }
 }

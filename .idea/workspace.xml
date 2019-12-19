@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTests.testMainPage2">
+  <component name="RunManager" selected="TestNG.SearchTests.testSearchPage">
     <configuration name="MainPageTests.testMainPage2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPageTests.testMainPage2" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
+        <item itemvalue="TestNG.MainPageTests.testMainPage2" />
         <item itemvalue="TestNG.SearchTests.testSearchPage1" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration (1)" />
         <item itemvalue="TestNG.MediaTests.testMainPage2" />
