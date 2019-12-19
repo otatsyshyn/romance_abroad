@@ -30,4 +30,11 @@ public class SearchTests extends BaseUI{
         Select select = new Select(driver.findElement(locator));
         select.selectByIndex(index);}
 
+    public void getDropDownListByText(By locator, String text){
+        Select select = new Select(driver.findElement(locator));
+        select.selectByVisibleText(text);}
+
+    public void getDropDownListByValue(By locator, String value){
+        Select select = new Select(driver.findElement(locator));
+        select.selectByValue(value);}
 }
