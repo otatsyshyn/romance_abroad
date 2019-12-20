@@ -53,14 +53,14 @@ public class Conditions extends BaseUI {
     }
     @Test
     public void test5 (){
-    List<WebElement> links = driver.findElements(By.xpath("//ul[@class='navbar-nav']//li"));
+    List<WebElement> links = driver.findElements(Locators.MAIN_PAGE);
         System.out.println(links.size());
         for (int i = 0; i<links.size() ;i++ ){
             String info = links.get(i).getText();
             System.out.println(info);
             links.get(i).click();
             driver.get(Data.expectedUrlMedia);
-            links = driver.findElements(By.xpath("//ul.li"));
+            links = driver.findElements(Locators.MAIN_PAGE_LIST);
         }
     }
 

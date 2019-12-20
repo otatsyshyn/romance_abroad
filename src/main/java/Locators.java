@@ -1,9 +1,13 @@
 import org.openqa.selenium.By;
 
 public class Locators {
+        //Main Page
+        public static final By MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
+        public static final By MAIN_PAGE_LIST = By.xpath("//ul.li");
         //Media Page
         public static final By LINK_MEDIA = By.xpath("//a[@href='https://romanceabroad.com/media/index']");
         public static final By LINK_VIDEO = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
+
         //Registration
         public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
         public static final By DROP_DOWN_LIST_SELECT_DAY = By.cssSelector("#daySelect");
