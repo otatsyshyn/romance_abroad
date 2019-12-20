@@ -1,7 +1,7 @@
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 public class MainPageTests extends BaseUI {
-
+    BaseActions baseActions = new BaseActions();
     @Test
     public void testMainPage2() throws InterruptedException {
         Thread.sleep(3000);

@@ -20,20 +20,6 @@ public class SearchTests extends BaseUI{
         } catch (InterruptedException e) {
             e.printStackTrace();        }
 
-    getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 0);
-
+    searchPage.getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 0);
 }
-    public void getDropDownListByIndex(By locator, int index){
-        Select select = new Select(driver.findElement(locator));
-        select.selectByIndex(index);}
-
-    public void getDropDownListByText(By locator, String text){
-        Select select = new Select(driver.findElement(locator));
-        select.selectByVisibleText(text);}
-
-    public void getDropDownListByValue(By locator, String value){
-        Select select = new Select(driver.findElement(locator));
-        select.selectByValue(value);}
-
-
 }
