@@ -15,13 +15,16 @@ public void clickJoinButton(){
 }
 
 public void completeFirstPartOfRegistration(){
-    driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(Data.email);
     wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
     driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(Data.password);
     wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
 }
 public void completeSecondPartOfRegistration(){
+
+    driver.manage().timeouts().pageLoadTimeout(3,TimeUnit.SECONDS);
+    driver.findElement(Locators.BUTTON_NEXT).click();
     driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(generateNewNumber(Data.nickname, 10));
     driver.findElement(Locators.DROP_DOWN_LIST_SELECT_DAY).click();
     driver.findElement(Locators.DROP_DOWN_LIST_SELECT_DAY_5).click();
