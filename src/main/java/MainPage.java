@@ -33,7 +33,6 @@ public void completeSecondPartOfRegistration(){
     driver.findElement(Locators.DROP_DOWN_LIST_SELECT_YEAR).click();
     driver.findElement(Locators.DROP_DOWN_LIST_SELECT_YEAR_1997).click();
     driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
-    WebElement checkboxConfirmation = driver.findElement(Locators.BUTTON_CONFIRMATION);
-    checkboxConfirmation.click();
+
 }
 }
