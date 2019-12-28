@@ -14,4 +14,7 @@ public class Data {
     //Search page
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
 
+    //Main Page
+    public static final String expectedUrlMainPage = "https://romanceabroad.com";
+
 }
