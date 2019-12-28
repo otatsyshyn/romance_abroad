@@ -60,12 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions.test7">
-    <configuration name="Conditions" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Conditions.test5">
+    <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Conditions.test5" />
         <item itemvalue="TestNG.Conditions.test7" />
+        <item itemvalue="TestNG.Conditions.test10" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
         <item itemvalue="TestNG.Conditions.test4" />
-        <item itemvalue="TestNG.Conditions.test5" />
-        <item itemvalue="TestNG.Conditions" />
       </list>
     </recent_temporary>
   </component>

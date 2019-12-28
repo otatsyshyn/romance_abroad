@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import sun.jvm.hotspot.utilities.AssertionFailure;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -60,12 +61,29 @@ public class Conditions extends BaseUI {
 
     @Test
     public void test5() {
+        String actualTitle;
+        String actualUrlPrettyWomen;
+        String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
+        String expectedTitleHome = "UKRAINIAN GIRLS DATING SITE";
+        String expectedTitlePhotos = "Ukrainian women photos";
         List<WebElement> links = driver.findElements(Locators.MAIN_PAGE);
         System.out.println(links.size());
         for (int i = 0; i < links.size(); i++) {
             String info = links.get(i).getText();
             System.out.println(info);
             links.get(i).click();
+
+            if(info.contains("HOME")) {
+                actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
+                Assert.assertEquals(expectedTitleHome, actualTitle);
+            }
+            if(info.contains("PRETTY WOMEN")) {
+                actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
+                actualUrlPrettyWomen = driver.getCurrentUrl();
+                Assert.assertEquals(expectedTitlePhotos, actualTitle);
+                Assert.assertEquals(actualUrlPrettyWomen,expectedUrlPrettyWomen);
+                driver.findElement(Locators.SINGLE_WOMEN_SEARCH).isDisplayed();
+            }
             driver.get(Data.expectedUrlMainPage);
             links = driver.findElements(Locators.MAIN_PAGE_LIST);
         }
@@ -75,8 +93,8 @@ public class Conditions extends BaseUI {
       public void test6(){
         List<Integer> crunchifList1 = new ArrayList<>(Arrays.asList(5, 10, 19));
         int sum = crunchifList1.get(0)+crunchifList1.get(1)+crunchifList1.get(2);
-        System.out.println(sum);
-    }*/
+        System.out.println(sum);*/
+
 
 
     @Test
@@ -85,6 +103,48 @@ public class Conditions extends BaseUI {
         if (crunchifList1.contains("mango")) {
 
             System.out.println(crunchifList1);
+        }
+    }
+    // Test Cases with Loops
+    @Test
+    public void test8() {
+    List<Integer> crunchifyList1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
+    for (int i = 0; i <crunchifyList1.size() ; i++) {
+    int element = crunchifyList1.get(i);
+        System.out.println("Result int");
+
+        }
+    }
+
+    @Test
+    public void test9() {
+        List<Integer> crunchifyList1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
+        System.out.println(crunchifyList1);
+        crunchifyList1.add(5);
+        for (int i = 0; i < crunchifyList1.size(); i++) {
+            int element = crunchifyList1.get(i);
+            System.out.println("Result int added 5");
+        }
+    }
+
+    @Test
+    public void test10() {
+        String phrase = ("apple is in scope");
+        List<String> crunchifyList1 = new ArrayList<>(Arrays.asList("avocado", "kiwi", phrase));
+        crunchifyList1.add("banana");
+        for (int i = 0; i < crunchifyList1.size(); i++) {
+            String element = crunchifyList1.get(i);
+            System.out.println(i + " interation");
+            if (element.contains("app")) {
+                System.out.println(phrase);
+                //break;
+
+            if (element.contains("wi"));
+                System.out.println("kiwi");
+
+            } else {
+                System.out.println("Bad loop");
+            }
         }
     }
 }

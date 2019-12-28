@@ -16,8 +16,8 @@ public class SearchTests extends BaseUI{
         currentUrlSearch = driver.getCurrentUrl();
         System.out.println(currentUrlSearch);
         //Assert.assertEquals(currentUrlSearch, Data.expectedUrlSearch);
-        softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
-        softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
+        //softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
+        //softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
         searchPage.getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 0);
         softAssert.assertAll();
