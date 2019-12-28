@@ -1,4 +1,5 @@
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,14 +18,16 @@ public class BaseUI {
     WebDriver driver;
     WebDriverWait wait;
 
+
     String mainUrl = "https://romanceabroad.com/";
     MainPage mainPage;
     SearchPage searchPage;
     SoftAssert softAssert = new SoftAssert();
 
+
     @BeforeMethod
     @Parameters("browser")
-    public void setup(@Optional("chrome") String browser, Method method){
+    public void setup(@Optional("chrome") String browser, Method method) throws InterruptedException {
 
         // Check if parameter passed from TestNG is 'firefox'
         if (browser.equalsIgnoreCase("firefox")) {
@@ -58,6 +61,9 @@ public class BaseUI {
         searchPage = new SearchPage(driver,wait);
         driver.manage().window().maximize();
         driver.get(mainUrl);
+        driver.manage().deleteAllCookies();
+
+
 
 
     }

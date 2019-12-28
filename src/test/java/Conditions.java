@@ -65,7 +65,6 @@ public class Conditions extends BaseUI {
         String actualUrlPrettyWomen;
         String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
         String expectedTitleHome = "UKRAINIAN GIRLS DATING SITE";
-        String expectedTitlePhotos = "Ukrainian women photos";
         List<WebElement> links = driver.findElements(Locators.MAIN_PAGE);
         System.out.println(links.size());
         for (int i = 0; i < links.size(); i++) {
@@ -80,7 +79,7 @@ public class Conditions extends BaseUI {
             if(info.contains("PRETTY WOMEN")) {
                 actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
                 actualUrlPrettyWomen = driver.getCurrentUrl();
-                Assert.assertEquals(expectedTitlePhotos, actualTitle);
+                Assert.assertEquals(expectedUrlPrettyWomen, actualTitle);
                 Assert.assertEquals(actualUrlPrettyWomen,expectedUrlPrettyWomen);
                 driver.findElement(Locators.SINGLE_WOMEN_SEARCH).isDisplayed();
             }
