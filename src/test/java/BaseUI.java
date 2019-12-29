@@ -55,7 +55,7 @@ public class BaseUI {
         }
 
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
+        
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver,wait);
         searchPage = new SearchPage(driver,wait);
