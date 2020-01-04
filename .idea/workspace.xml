@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions.test5">
+  <component name="RunManager" selected="TestNG.Conditions.test6">
     <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,11 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,11 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Conditions.test6" />
         <item itemvalue="TestNG.Conditions.test5" />
         <item itemvalue="TestNG.Conditions.test7" />
         <item itemvalue="TestNG.Conditions.test10" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
-        <item itemvalue="TestNG.Conditions.test4" />
       </list>
     </recent_temporary>
   </component>

@@ -55,10 +55,10 @@ public class BaseUI {
         }
 
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver,wait);
         searchPage = new SearchPage(driver,wait);
+
         driver.manage().window().maximize();
         driver.get(mainUrl);
         driver.manage().deleteAllCookies();

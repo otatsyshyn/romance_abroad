@@ -70,7 +70,8 @@ public class Conditions extends BaseUI {
         for (int i = 0; i < links.size(); i++) {
             String info = links.get(i).getText();
             System.out.println(info);
-            links.get(i).click();
+            //links.get(i).click();
+            mainPage.ajaxClick(links.get(i));
 
             if(info.contains("HOME")) {
                 actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
@@ -88,16 +89,18 @@ public class Conditions extends BaseUI {
         }
     }
 
-     /*@Test
-      public void test6(){
-        List<Integer> crunchifList1 = new ArrayList<>(Arrays.asList(5, 10, 19));
-        int sum = crunchifList1.get(0)+crunchifList1.get(1)+crunchifList1.get(2);
-        System.out.println(sum);*/
+     @Test
+      public void test6() {
+         //mainPage.ajaxClick(Locators.MAIN_PAGE, 3);
+         //mainPage.performClick(Locators.MAIN_PAGE, 4);
+         mainPage.scrollToBottomOfPage();
+     }
+
 
 
 
     @Test
-    public void test7() {
+    public void test7(){
         List<String> crunchifList1 = new ArrayList<>(Arrays.asList("kiwi", "mango", "orange"));
         if (crunchifList1.contains("mango")) {
 
@@ -146,5 +149,6 @@ public class Conditions extends BaseUI {
             }
         }
     }
+
 }
 
