@@ -18,7 +18,6 @@ public class BaseActions {
         this.wait = wait;
     }
     public static String generateNewNumber(String name, int length){
-
         return name + RandomStringUtils.random(length, "172984757");
     }
 
@@ -33,7 +32,8 @@ public class BaseActions {
 
     public void getDropDownListByValue(By locator, String value){
         Select select = new Select(driver.findElement(locator));
-        select.selectByValue(value);}
+        select.selectByValue(value);
+    }
 
     public void ajaxClick(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);

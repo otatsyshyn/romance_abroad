@@ -1,5 +1,3 @@
-import org.openqa.selenium.By;
-
 public class Data {
 
     //Registration page
@@ -16,5 +14,4 @@ public class Data {
 
     //Main Page
     public static final String expectedUrlMainPage = "https://romanceabroad.com";
-
 }

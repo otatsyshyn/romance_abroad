@@ -1,9 +1,6 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import sun.jvm.hotspot.utilities.AssertionFailure;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +8,7 @@ import java.util.List;
 public class Conditions extends BaseUI {
 
     @Test
-    public void test() {
+    public void test1() {
         String fruit1 = "kiwi";
         String fruit2 = "";
         if (fruit1.contains("kiwi") || fruit2.contains("kiwi")) {
@@ -22,7 +19,6 @@ public class Conditions extends BaseUI {
     }
 
     @Test
-
     public void test2() {
         int number = 10;
         int sum;
@@ -42,12 +38,10 @@ public class Conditions extends BaseUI {
         } else {
             Assert.fail("Boolean is failed");
         }
-
     }
 
     @Test
     public void test4() {
-
         mainPage.clickJoinButton();
         mainPage.completeFirstPartOfRegistration();
         mainPage.completeSecondPartOfRegistration();
@@ -74,11 +68,11 @@ public class Conditions extends BaseUI {
             mainPage.ajaxClick(links.get(i));
 
             if(info.contains("HOME")) {
-                actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
+                actualTitle = mainPage.getMainPageTabs();
                 Assert.assertEquals(expectedTitleHome, actualTitle);
             }
             if(info.contains("PRETTY WOMEN")) {
-                actualTitle = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
+                actualTitle = mainPage.getMainPageTabs();
                 actualUrlPrettyWomen = driver.getCurrentUrl();
                 Assert.assertEquals(expectedUrlPrettyWomen, actualTitle);
                 Assert.assertEquals(actualUrlPrettyWomen,expectedUrlPrettyWomen);
@@ -95,9 +89,6 @@ public class Conditions extends BaseUI {
          //mainPage.performClick(Locators.MAIN_PAGE, 4);
          mainPage.scrollToBottomOfPage();
      }
-
-
-
 
     @Test
     public void test7(){

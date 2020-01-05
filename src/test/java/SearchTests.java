@@ -1,6 +1,4 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,7 +15,6 @@ public class SearchTests extends BaseUI{
         System.out.println(currentUrlSearch);
         //Assert.assertEquals(currentUrlSearch, Data.expectedUrlSearch);
         //softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
-        //softAssert.assertEquals(currentUrlSearch, Data.expectedUrlSearch, "Url is not correct");
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
         searchPage.getDropDownListByIndex(Locators.DROP_DOWN_LIST_SORT_BY, 0);
         softAssert.assertAll();
@@ -25,9 +22,7 @@ public class SearchTests extends BaseUI{
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
-            e.printStackTrace();        }
-
-
-
-}
+            e.printStackTrace();
+        }
+    }
 }
