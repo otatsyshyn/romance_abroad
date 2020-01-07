@@ -60,13 +60,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions.test6">
-    <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml">
+    <configuration name="C:/Program Files/GitHub/romance_abroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -97,11 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test7" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTests.testLinksOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
+      <option name="METHOD_NAME" value="testLinksOnMainPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,11 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.selectRandomDropDownList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="METHOD_NAME" value="selectRandomDropDownList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
+        <item itemvalue="TestNG.SearchTests.selectRandomDropDownList" />
+        <item itemvalue="TestNG.MainPageTests.testLinksOnMainPage" />
         <item itemvalue="TestNG.Conditions.test6" />
         <item itemvalue="TestNG.Conditions.test5" />
-        <item itemvalue="TestNG.Conditions.test7" />
-        <item itemvalue="TestNG.Conditions.test10" />
-        <item itemvalue="TestNG.SearchTests.testSearchPage" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +154,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BaseActions.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

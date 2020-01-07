@@ -25,4 +25,16 @@ public class SearchTests extends BaseUI{
             e.printStackTrace();
         }
     }
+    @Test
+    public void selectRandomDropDownList() {
+        driver.findElement(Locators.LINK_SEARCH).click();
+
+        int sizeOfDropDownListSortBy = searchPage.getSizeDropDownList(Locators.DROP_DOWN_MAX_AGE);
+        mainPage.javaWaitSec(3);
+        System.out.println(sizeOfDropDownListSortBy);
+        for (int i = 0; i < sizeOfDropDownListSortBy; i++) {
+        searchPage.selectItemDropDownRandomOption(Locators.DROP_DOWN_MAX_AGE, "Sort by");
+        mainPage.javaWaitSec(3);
+    }
+}
 }

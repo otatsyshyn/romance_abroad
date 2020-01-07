@@ -28,8 +28,12 @@ public class Locators {
 
         //Search
         public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
+        //public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search'][@id='sorter-link-4652']");
+
         public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='form-inline']//select");
         public static final By SINGLE_WOMEN_SEARCH = By.xpath("//a@class='g-pic-border g-rounded'");
+        public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
+
 
 
     }
