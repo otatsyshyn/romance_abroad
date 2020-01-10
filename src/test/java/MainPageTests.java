@@ -1,5 +1,9 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import java.util.List;
+
 public class MainPageTests extends BaseUI {
 
     @Test
@@ -19,6 +23,15 @@ public class MainPageTests extends BaseUI {
         mainPage.checkLinksOnWebPage("//img", "src");
 
     }
+    @Test
+    public void smokeTestMainPage (){
+        List<WebElement> mainTabs = driver.findElements(Locators.MAIN_PAGE_BAR);
+        for (int i = 0; i <mainTabs.size(); i++) {
+            mainTabs.get(i).click();
+            driver.get(Data.expectedUrlMainPage);
+            mainTabs = driver.findElements(Locators.MAIN_PAGE_BAR);
 
+        }
+    }
 
 }

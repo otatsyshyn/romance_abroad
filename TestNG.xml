@@ -12,10 +12,34 @@
             <class name ="RegistrationTests"/>
         </classes>
     </test>
+
+
     <test name="ChromeTestCases">
         <parameter name="browser" value="chrome"/>
+          <groups>
+                <run>
+                        <exclude name="ie"/>
+                        <include name="admin"/>
+                        <include name="user"/>
+                </run>
+           </groups>
         <classes>
-            <class name ="RegistrationTests"/>
+
+        <class name ="SearchTests">
+        <methods>
+            <include name = ".*Case11.*"/>
+            <include name = ".*Case12*"/>
+            <include name = ".*case13.*"/>
+        </methods>
+
+        </class>
         </classes>
+
     </test>
+
+
+
+
+
+
 </suite>

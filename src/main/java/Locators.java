@@ -3,6 +3,8 @@ import org.openqa.selenium.By;
 public class Locators {
         //Main Page
         public static final By MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
+        public static final By MAIN_PAGE_BAR = By.xpath("//ul[@class='navbar-nav']//li/a");
+        //ul[@class='navbar-nav']//li/a
         public static final By MAIN_PAGE_LIST = By.xpath("//ul.li");
         public static final By MAIN_PAGE_TABS = By.xpath("//h1");
 
