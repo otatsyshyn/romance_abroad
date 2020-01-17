@@ -5,9 +5,10 @@ public class RegistrationTests extends BaseUI {
 
     @Test public void testRegistration() {
         mainPage.clickJoinButton();
-        mainPage.completeFirstPartOfRegistration();
-        mainPage.completeSecondPartOfRegistration();
-        WebElement checkboxConfirmation = driver.findElement(Locators.BUTTON_CONFIRMATION);
+        mainPage.completeFirstPartOfRegistration(Data.email, Data.password);
+        mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 10), Data.phone,
+                Data.month,Data.day,Data.year, Data.location, Data.city);
+        WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
         if (!driver.findElement(Locators.LINK_SEARCH).isSelected()){
             checkboxConfirmation.click();
         }else{

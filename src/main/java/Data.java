@@ -6,6 +6,12 @@ public class Data {
     public static final String nickname = "Olga1234";
     public static final String phone = "1234567890";
 
+    public static final String day = "1";
+    public static final String month = "Feb";
+    public static final String year = "1997";
+    public static final String city = "Texas City";
+    public static final String location = "Texas City, United States";
+
     // Media page
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
 

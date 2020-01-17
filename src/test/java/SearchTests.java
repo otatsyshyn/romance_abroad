@@ -34,7 +34,7 @@ public class SearchTests extends BaseUI{
     public void validateAssertionsTestcase13 () {
         Assert.assertEquals("Web", "Web");
     }
-    @Test (priority = 2, enabled = testCase12, groups ="ie")
+    @Test (priority = 2, enabled = testCase12, groups ="users")
     public void selectRandomDropDownListTestCase13() {
         driver.findElement(Locators.LINK_SEARCH).click();
 

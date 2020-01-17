@@ -147,6 +147,18 @@ public int getSizeDropDownList(By locator) {
         }
         return 0;
 }
+
+    public void clickValueOfLists(By locator, String text) {
+        List<WebElement> elements = driver.findElements(Locators.DROP_DOWN_LIST_SELECT_VALUE_DAY);
+        for (int i = 0; i < elements.size(); i++) {
+            WebElement elementOfList = elements.get(i);
+            String value = elementOfList.getText();
+            if(value.contains(text)) {
+                elementOfList.click();
+            }
+
+        }
+    }
 }
 
 

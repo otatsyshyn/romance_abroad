@@ -40,18 +40,18 @@ public class Conditions extends BaseUI {
         }
     }
 
-    @Test
+    /*@Test
     public void test4() {
         mainPage.clickJoinButton();
         mainPage.completeFirstPartOfRegistration();
         mainPage.completeSecondPartOfRegistration();
 
-        WebElement checkboxConfirmation = driver.findElement(Locators.BUTTON_CONFIRMATION);
+        WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
         checkboxConfirmation.click();
         if (!checkboxConfirmation.isSelected()) {
             checkboxConfirmation.click();
         }
-    }
+    }*/
 
     @Test
     public void test5() {
