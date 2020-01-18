@@ -20,4 +20,13 @@ public class Data {
 
     //Main Page
     public static final String expectedUrlMainPage = "https://romanceabroad.com";
+
+    //Contact Us (Tickets)
+    public static final String contact_us_reason = "Pre-Sales Questions";
+    public static final String contact_us_username = "Evan";
+    public static final String contact_us_email = "567899335@gmail.com";
+    public static final String contact_us_subject = "Test_Contact Us Subject 1";
+    public static final String contact_us_message = "Happy New Year";
+
+
 }

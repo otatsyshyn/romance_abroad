@@ -28,7 +28,7 @@ public class Locators {
         public static final By BUTTON_VIDEO = By.xpath("//button[@class='ytp-large-play-button ytp-button']");
         public static final By TEXT_FIELD_EMAIL = By.cssSelector("input#email");
         public static final By TEXT_FIELD_PASSWORD = By.cssSelector("input#password");
-        public static final By TEXT_FIELD_NICKNAME= By.xpath("//input[@data-field='nickname']");
+        public static final By TEXT_FIELD_NICKNAME = By.xpath("//input[@data-field='nickname']");
         public static final By TEXT_FIELD_PHONE= By.xpath("//input[@name='data[phone]']");
 
         //Search
@@ -38,6 +38,19 @@ public class Locators {
         public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='form-inline']//select");
         public static final By SINGLE_WOMEN_SEARCH = By.xpath("//a@class='g-pic-border g-rounded'");
         public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
+
+        //Contact Us (Tickets)
+        public static final By LINK_CONTACT_US_FORM = By.xpath("//a[@href='https://romanceabroad.com/tickets/']");
+        public static final By CONTACT_US_DROP_DOWN_LIST_REASON = By.xpath("//select[@class='form-control']");
+        public static final By CONTACT_US_DROP_DOWN_LIST_VALUE_REASON = By.xpath("//select[@class='form-control']");
+        public static final By CONTACT_US_FORM_USER_NAME = By.xpath("//input[@name='user_name']");
+        public static final By CONTACT_US_FORM_EMAIL = By.xpath("//input[@name='user_email']");
+        public static final By CONTACT_US_FORM_SUBJECT = By.xpath("//input[@name='subject']");
+        public static final By CONTACT_US_FORM_MESSAGE = By.xpath("//textarea[@class='form-control']");
+
+        public static final By CONTACT_US_FORM_IMAGE_CAPTCHA = By.xpath("//img[@src='https://romanceabroad.com/temp/captcha/1579309210.39.jpg']");
+        public static final By CONTACT_US_FORM_INPUT_CAPTCHA = By.xpath("//input[@name='captcha_code']");
+        public static final By CONTACT_US_BUTTON_SEND = By.xpath("//input[@value='Send']");
 
 
 

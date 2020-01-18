@@ -1,20 +1,27 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainPage extends BaseActions {
+
 public MainPage(WebDriver driver, WebDriverWait wait){
         super(driver, wait);
     }
-public void clickJoinButton(){
 
+public void clickJoinButton(){
     driver.findElement(Locators.BUTTON_REGISTRATION).click();
 }
+
+public void clickMainPage(){
+        driver.findElement(Locators.LINK_MEDIA).click();
+    }
+
+public String getMainPageTabs () {
+        String text = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
+        return text;
+    }
+
 
 public void completeFirstPartOfRegistration(String email, String password){
     //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
@@ -43,11 +50,7 @@ public void completeSecondPartOfRegistration(String nickname, String phone,
     driver.findElement(Locators.CHECKBOX_CONFIRMATION).click();
 
     driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).clear();
-    driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys("Texas City, United States");
+    driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys(city);
     clickValueOfLists(Locators.DROP_DOWN_LIST_VALUE_LOCATION, location);
     }
-public String getMainPageTabs () {
-    String text = driver.findElement(Locators.MAIN_PAGE_TABS).getText();
-    return text;
-   }
 }

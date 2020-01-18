@@ -60,23 +60,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml">
+  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration">
     <configuration name="C:/Program Files/GitHub/romance_abroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Conditions.test5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,6 +95,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTests.selectRandomDropDownList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
         <item itemvalue="TestNG.SearchTests.selectRandomDropDownList" />
         <item itemvalue="TestNG.MainPageTests.testLinksOnMainPage" />
         <item itemvalue="TestNG.Conditions.test6" />
-        <item itemvalue="TestNG.Conditions.test5" />
       </list>
     </recent_temporary>
   </component>
