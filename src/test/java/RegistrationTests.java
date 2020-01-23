@@ -28,6 +28,12 @@ public class RegistrationTests extends BaseUI {
         mainPage.completeFirstPartOfRegistration(email, password);
         mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 10), phone, month, day, year, city, location);
 
+
+       //***Please find another part of HW 19: Data provider with 1 parameter in 'Conditions' Test Cases (row 132)
+
+
+
+
         /*WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
         if (!driver.findElement(Locators.LINK_SEARCH).isSelected()){
             checkboxConfirmation.click();
