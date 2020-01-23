@@ -35,9 +35,11 @@ public class SearchTests extends BaseUI{
         Assert.assertEquals("Web", "Web");
     }
     @Test (priority = 2, enabled = testCase12, groups ="users")
+
+
+
     public void selectRandomDropDownListTestCase13() {
         driver.findElement(Locators.LINK_SEARCH).click();
-
         int sizeOfDropDownListSortBy = searchPage.getSizeDropDownList(Locators.DROP_DOWN_MAX_AGE);
         mainPage.javaWaitSec(3);
         System.out.println(sizeOfDropDownListSortBy);

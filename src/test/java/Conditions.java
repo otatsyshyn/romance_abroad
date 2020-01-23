@@ -1,6 +1,10 @@
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -109,6 +113,11 @@ public class Conditions extends BaseUI {
         }
     }
 
+
+
+
+
+
     @Test
     public void test9() {
         List<Integer> crunchifyList1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
@@ -120,10 +129,24 @@ public class Conditions extends BaseUI {
         }
     }
 
-    @Test
-    public void test10() {
+// Data provider with 1 parameter (Please OFF 'extends BaseUI' )
+
+    @DataProvider(name = "Fruits")
+    public static Object[][] testRegistration2() throws Exception{
+        ArrayList<Object[]> out = new ArrayList<>();
+        Files.readAllLines(Paths.get("fruits.csv")).stream().forEach(s-> {
+
+            String[] data = s.split(",");
+            out.add(new Object[]{data[0]});
+
+        });
+
+        return out.toArray(new Object[out.size()][]);
+    }
+    @Test (dataProvider = "Fruits")
+    public void test10(String fruit) {
         String phrase = ("apple is in scope");
-        List<String> crunchifyList1 = new ArrayList<>(Arrays.asList("avocado", "kiwi", phrase));
+        List<String> crunchifyList1 = new ArrayList<>(Arrays.asList(fruit, phrase));
         crunchifyList1.add("banana");
         for (int i = 0; i < crunchifyList1.size(); i++) {
             String element = crunchifyList1.get(i);

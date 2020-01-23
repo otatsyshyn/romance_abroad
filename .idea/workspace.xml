@@ -61,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.selectRandomDropDownListTestCase13">
+  <component name="RunManager" selected="TestNG.Conditions.test10">
     <configuration name="BlogTests.testArticlesAndTitles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,11 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,11 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.selectRandomDropDownList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="selectRandomDropDownList" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Conditions.test10" />
         <item itemvalue="TestNG.SearchTests.selectRandomDropDownListTestCase13" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.BlogTests.testArticlesAndTitles" />
         <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
-        <item itemvalue="TestNG.SearchTests.selectRandomDropDownList" />
       </list>
     </recent_temporary>
   </component>
