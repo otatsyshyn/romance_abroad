@@ -18,6 +18,8 @@ public class BaseUI {
     String mainUrl = "https://romanceabroad.com/";
     MainPage mainPage;
     SearchPage searchPage;
+    ContactUs contactUs;
+    BlogPage blogPage;
     SoftAssert softAssert = new SoftAssert();
 
 
@@ -54,6 +56,8 @@ public class BaseUI {
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver,wait);
         searchPage = new SearchPage(driver,wait);
+        contactUs = new ContactUs(driver,wait);
+        blogPage = new BlogPage(driver, wait);
 
         driver.manage().window().maximize();
         driver.get(mainUrl);

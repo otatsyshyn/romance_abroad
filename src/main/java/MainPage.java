@@ -53,4 +53,8 @@ public void completeSecondPartOfRegistration(String nickname, String phone,
     driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys(city);
     clickValueOfLists(Locators.DROP_DOWN_LIST_VALUE_LOCATION, location);
     }
+
+    public  void clickTabBlog () {
+    driver.findElement(Locators.LINK_BLOG).click();
+    }
 }

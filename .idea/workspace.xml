@@ -61,22 +61,22 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration">
-    <configuration name="C:/Program Files/GitHub/romance_abroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BlogTests.testArticlesAndTitles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlogTests" />
+      <option name="METHOD_NAME" value="testArticlesAndTitles" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Program Files/GitHub/romance_abroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -122,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item itemvalue="TestNG.BlogTests.testArticlesAndTitles" />
         <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
         <item itemvalue="TestNG.SearchTests.selectRandomDropDownList" />
         <item itemvalue="TestNG.MainPageTests.testLinksOnMainPage" />
-        <item itemvalue="TestNG.Conditions.test6" />
       </list>
     </recent_temporary>
   </component>

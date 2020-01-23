@@ -1,6 +1,8 @@
 import org.openqa.selenium.By;
 
 public class Locators {
+
+        public static final By H1_TITLE = By.xpath("//h1");
         //Main Page
         public static final By MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
         public static final By MAIN_PAGE_BAR = By.xpath("//ul[@class='navbar-nav']//li/a");
@@ -51,6 +53,10 @@ public class Locators {
         public static final By CONTACT_US_FORM_IMAGE_CAPTCHA = By.xpath("//img[@src='https://romanceabroad.com/temp/captcha/1579309210.39.jpg']");
         public static final By CONTACT_US_FORM_INPUT_CAPTCHA = By.xpath("//input[@name='captcha_code']");
         public static final By CONTACT_US_BUTTON_SEND = By.xpath("//input[@value='Send']");
+
+        //Blog page
+        public static final By LINK_BLOG  = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
+        public static final By LINKS_OF_ARTICLES  = By.xpath("//ul[@class='nav nav-pills nav-stacked content-pages-tree']//li");
 
 
 

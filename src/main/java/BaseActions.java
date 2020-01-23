@@ -159,6 +159,12 @@ public int getSizeDropDownList(By locator) {
 
         }
     }
+
+    public String getAnyTitle() {
+        String title = driver.findElement(Locators.H1_TITLE).getText();
+        return title;
+    }
+
 }
 
 
