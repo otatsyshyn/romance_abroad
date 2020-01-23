@@ -46,6 +46,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\GitHub\romance_abroad" />
+      <recent name="C:\Program Files\GitHub\romance_abroad\target" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration">
+  <component name="RunManager" selected="TestNG.SearchTests.selectRandomDropDownListTestCase13">
     <configuration name="BlogTests.testArticlesAndTitles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,18 +78,6 @@
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTests.testLinksOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="testLinksOnMainPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,13 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTests.selectRandomDropDownListTestCase13" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTests" />
+      <option name="METHOD_NAME" value="selectRandomDropDownListTestCase13" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListTestCase13" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.BlogTests.testArticlesAndTitles" />
         <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
         <item itemvalue="TestNG.SearchTests.selectRandomDropDownList" />
-        <item itemvalue="TestNG.MainPageTests.testLinksOnMainPage" />
       </list>
     </recent_temporary>
   </component>

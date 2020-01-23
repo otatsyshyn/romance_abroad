@@ -24,7 +24,7 @@ public String getMainPageTabs () {
 
 
 public void completeFirstPartOfRegistration(String email, String password){
-    //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
     wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
     driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
@@ -35,7 +35,7 @@ public void completeSecondPartOfRegistration(String nickname, String phone,
                                              String city, String location){
     driver.manage().timeouts().pageLoadTimeout(3,TimeUnit.SECONDS);
     driver.findElement(Locators.BUTTON_NEXT).click();
-    driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys();
+    driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(nickname);
 
     driver.findElement(Locators.DROP_DOWN_LIST_SELECT_DAY).click();
     clickValueOfLists(Locators.DROP_DOWN_LIST_SELECT_VALUE_DAY, day);
