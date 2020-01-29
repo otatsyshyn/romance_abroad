@@ -23,13 +23,18 @@ public String getMainPageTabs () {
     }
 
 
-public void completeFirstPartOfRegistration(String email, String password){
+public void completeFirstPartOfRegistration(String email, String password) {
     driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
     wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
     driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
+
+   }
+public void clickNextButton() {
     wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
-}
+    driver.findElement(Locators.BUTTON_NEXT).click();
+    }
+
 public void completeSecondPartOfRegistration(String nickname, String phone,
                                              String  month, String day, String year,
                                              String city, String location){

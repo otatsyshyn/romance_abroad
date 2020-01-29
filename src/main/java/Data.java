@@ -2,9 +2,17 @@ public class Data {
 
     //Registration page
     public static final String email = "567899@gmail.com";
+
+    public static final String email1 = "563@gmail.com";
+    public static final String email2 = "5gmail.com";
+    public static final String email3 = "11@gmail.com";
+
     public static final String password = "123456";
-    public static final String nickname = "Olga1234";
+    public static final String nickname1part = "Olga1234";
+    public static final String nickname = MainPage.generateNewNumber(nickname1part, Data.lenthSecondpartOfNickname);
+
     public static final String phone = "1234567890";
+    public static final int lenthSecondpartOfNickname = 5;
 
     public static final String day = "1";
     public static final String month = "Feb";
