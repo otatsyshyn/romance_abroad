@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 
 public class Locators {
 
-        public static final By H1_TITLE = By.xpath("//h1");
+        //public static final By H1_TITLE = By.xpath("//h1");
         //Main Page
         public static final By MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
         public static final By MAIN_PAGE_BAR = By.xpath("//ul[@class='navbar-nav']//li/a");

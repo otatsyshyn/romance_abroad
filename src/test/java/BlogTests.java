@@ -18,44 +18,49 @@ public class BlogTests extends BaseUI {
             if (nameOfArticles.contains("How it works")){
 
             }else
-            if (nameOfArticles.contains("Kharkov dating agency")){
+            if (nameOfArticles.contains("Kharkov Dating & Marriage Agency")){
 
             }else
-            if (nameOfArticles.contains("Kiev dating agency")){
+            if (nameOfArticles.contains("Kiev marriage agency")){
 
             }else
-            if (nameOfArticles.contains("Odessa dating agency")){
+            if (nameOfArticles.contains("Odessa Dating Agency")){
 
             }else
-            if (nameOfArticles.contains("Mail order girls")){
+            if (nameOfArticles.contains("Mail Order Girls Catalog")){
 
             }else
-            if (nameOfArticles.contains("Beautiful urkainian girls")){
+            if (nameOfArticles.contains("Beautiful Ukrainian Girls Online")){
 
             }else
-            if (nameOfArticles.contains("Real Ukrainian brides")){
+            if (nameOfArticles.contains("Beautiful Brides in Ukraine")){
 
             }else
-            if (nameOfArticles.contains("Eastern European women")){
+            if (nameOfArticles.contains("Eastern European Girls")){
 
             }else
-            if (nameOfArticles.contains("Marriage agency in Ukraine")){
+            if (nameOfArticles.contains("Marriage And Dating Agency")){
 
             }else
-            if (nameOfArticles.contains("Kiev dating site")){
+            if (nameOfArticles.contains("Kiev Matchmaking Agency")){
 
             }else
-            if (nameOfArticles.contains("Find Ukrainian girlfriend")){
+            if (nameOfArticles.contains("Find Ukrainian Girlfriend Online")){
 
-            }if (nameOfArticles.contains("Slavic women for marriage")){
+            }else
+            if (nameOfArticles.contains("Slavic Lady for Marriage")){
 
-            }if (nameOfArticles.contains("How to marry Ukrainian lady")){
+            }else
+            if (nameOfArticles.contains("How To Marry Ukraine Women")){
 
-            }if (nameOfArticles.contains("Free Ukrainian dating site")){
+            }else
+            if (nameOfArticles.contains("Ukrainian dating website for singles")){
 
-            }if (nameOfArticles.contains("9 Factors to Keep in Mind When Dating a Ukrainian Woman")){
+            }else
+            if (nameOfArticles.contains("9 Factors to Keep in Mind When Dating a Ukrainian Woman")){
 
-            }if (nameOfArticles.contains("Is There a Difference Between Dating or Courting a Ukrainian Woman?")){
+            }else
+            if (nameOfArticles.contains("Is There a Difference Between Dating or Courting a Ukrainian Woman?")){
 
             }
             else {

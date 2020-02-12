@@ -143,7 +143,7 @@ public class Conditions extends BaseUI {
 
         return out.toArray(new Object[out.size()][]);
     }
-    @Test (dataProvider = "Fruits")
+    /*@Test (dataProvider = "Fruits")
     public void test10(String fruit) {
         String phrase = ("apple is in scope");
         List<String> crunchifyList1 = new ArrayList<>(Arrays.asList(fruit, phrase));
@@ -162,7 +162,7 @@ public class Conditions extends BaseUI {
                 System.out.println("Bad loop");
             }
         }
-    }
+    }*/
 
 }
 

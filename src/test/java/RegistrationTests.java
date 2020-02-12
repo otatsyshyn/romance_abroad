@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 public class RegistrationTests extends BaseUI {
 
-    @Test (dataProvider = "Registration2")
+
+    @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)
     public void testRegistration2(String email, String nickname, boolean requirement) {
         System.out.println(email);
         mainPage.clickJoinButton();
