@@ -1,4 +1,5 @@
-import org.openqa.selenium.By;
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -24,9 +25,9 @@ public class MainPageTests extends BaseUI {
 
     }
     @Test
-    public void smokeTestMainPage (){
+    public void smokeTestMainPage () {
         List<WebElement> mainTabs = driver.findElements(Locators.MAIN_PAGE_BAR);
-        for (int i = 0; i <mainTabs.size(); i++) {
+        for (int i = 0; i < mainTabs.size(); i++) {
             mainTabs.get(i).click();
             driver.get(Data.expectedUrlMainPage);
             mainTabs = driver.findElements(Locators.MAIN_PAGE_BAR);
@@ -34,4 +35,10 @@ public class MainPageTests extends BaseUI {
         }
     }
 
-}
+        @Test
+        public void print(){
+            mainPage.javaWait(5000);
+        }
+    }
+
+

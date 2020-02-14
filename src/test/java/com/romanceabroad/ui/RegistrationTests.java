@@ -1,12 +1,6 @@
-import org.openqa.selenium.WebElement;
+package com.romanceabroad.ui;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-
 public class RegistrationTests extends BaseUI {
 
 
@@ -21,7 +15,8 @@ public class RegistrationTests extends BaseUI {
             Assert.assertTrue(driver.findElement(Locators.TOOLTIP_ERROR).isDisplayed());
         }else {
         mainPage.clickNextButton();
-        mainPage.completeSecondPartOfRegistration(nickname, Data.phone, Data.month, Data.day, Data.year, Data.city, Data.location);}
+        mainPage.completeSecondPartOfRegistration(nickname, Data.phone,
+                Data.month, Data.day, Data.year, Data.city, Data.location);}
     }
 
 
@@ -41,18 +36,18 @@ public class RegistrationTests extends BaseUI {
 
         mainPage.clickJoinButton();
         mainPage.completeFirstPartOfRegistration(email, password);
-        mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 10),
+        mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(com.romanceabroad.ui.Data.nickname, 10),
                 phone, month, day, year, city, location);*/
 
 
 
-       //***Please find another part of HW 19: Data provider with 1 parameter in 'Conditions' Test Cases (row 132)
+       //***Please find another part of HW 19: com.romanceabroad.ui.Data provider with 1 parameter in 'Conditions' Test Cases (row 132)
 
 
 
 
-        /*WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
-        if (!driver.findElement(Locators.LINK_SEARCH).isSelected()){
+        /*WebElement checkboxConfirmation = driver.findElement(com.romanceabroad.ui.Locators.CHECKBOX_CONFIRMATION);
+        if (!driver.findElement(com.romanceabroad.ui.Locators.LINK_SEARCH).isSelected()){
             checkboxConfirmation.click();
         }else{
             Assert.fail("Checkbox is already selected");

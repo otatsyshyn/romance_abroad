@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -7,5 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
     }
 
     
+public void clickPrettyWomen(){
+        driver.findElement(Locators.LINK_SEARCH).click();
+    }
 
+public void clickSearchButton(){
+        driver.findElement(Locators.BUTTON_SEARCH).click();
 }
+}
+

@@ -38,6 +38,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\GitHub\romance_abroad\src\test\java\com\romanceabroad\ui" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -61,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BlogTests.testArticlesAndTitles">
+  <component name="RunManager" selected="TestNG.MainPageTests.print">
     <configuration name="BlogTests.testArticlesAndTitles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,11 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTests.print" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.MainPageTests" />
+      <option name="METHOD_NAME" value="print" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,11 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.selectRandomDropDownListTestCase13" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testSearchPageTestCase11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="selectRandomDropDownListTestCase13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
+      <option name="METHOD_NAME" value="testSearchPageTestCase11" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainPageTests.print" />
+        <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
+        <item itemvalue="TestNG.SearchTests.testSearchPageTestCase11" />
         <item itemvalue="TestNG.BlogTests.testArticlesAndTitles" />
         <item itemvalue="TestNG.Conditions.test10" />
-        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListTestCase13" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-        <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -155,16 +170,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BaseActions.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

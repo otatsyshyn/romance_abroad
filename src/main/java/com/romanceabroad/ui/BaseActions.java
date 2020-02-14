@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -76,6 +78,7 @@ public class BaseActions {
     }
     // Implicit Wait methods
     public void javaWait(int ms) {
+        System.out.println("Parent!!!");
         try {
             Thread.sleep(ms);
         } catch (InterruptedException e) {

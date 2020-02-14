@@ -1,3 +1,9 @@
+package com.romanceabroad.ui;
+
+import com.romanceabroad.ui.BlogPage;
+import com.romanceabroad.ui.ContactUs;
+import com.romanceabroad.ui.MainPage;
+import com.romanceabroad.ui.SearchPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -50,7 +52,7 @@ public class Conditions extends BaseUI {
         mainPage.completeFirstPartOfRegistration();
         mainPage.completeSecondPartOfRegistration();
 
-        WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
+        WebElement checkboxConfirmation = driver.findElement(com.romanceabroad.ui.Locators.CHECKBOX_CONFIRMATION);
         checkboxConfirmation.click();
         if (!checkboxConfirmation.isSelected()) {
             checkboxConfirmation.click();
@@ -89,8 +91,8 @@ public class Conditions extends BaseUI {
 
      @Test
       public void test6() {
-         //mainPage.ajaxClick(Locators.MAIN_PAGE, 3);
-         //mainPage.performClick(Locators.MAIN_PAGE, 4);
+         //mainPage.ajaxClick(com.romanceabroad.ui.Locators.MAIN_PAGE, 3);
+         //mainPage.performClick(com.romanceabroad.ui.Locators.MAIN_PAGE, 4);
          mainPage.scrollToBottomOfPage();
      }
 
@@ -129,7 +131,7 @@ public class Conditions extends BaseUI {
         }
     }
 
-// Data provider with 1 parameter (Please OFF 'extends BaseUI' )
+// com.romanceabroad.ui.Data provider with 1 parameter (Please OFF 'extends BaseUI' )
 
     @DataProvider(name = "Fruits")
     public static Object[][] testRegistration2() throws Exception{
