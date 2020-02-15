@@ -31,7 +31,7 @@
   </component>
   <component name="ProjectId" id="1TUNcYArWb9olNevd9VwgRlD0lE" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Courses/ZDOCGenerator_1.0.zip!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,11 +64,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTests.print">
-    <configuration name="BlogTests.testArticlesAndTitles" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BlogTests.testArticlesAndTitles (1)">
+    <configuration name="commons-logging-1.2.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.BlogTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogTests.testArticlesAndTitles (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.BlogTests" />
       <option name="METHOD_NAME" value="testArticlesAndTitles" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -81,18 +109,6 @@
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BlogTests.testArticlesAndTitles (1)" />
+        <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.MainPageTests.print" />
         <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
         <item itemvalue="TestNG.SearchTests.testSearchPageTestCase11" />
-        <item itemvalue="TestNG.BlogTests.testArticlesAndTitles" />
-        <item itemvalue="TestNG.Conditions.test10" />
       </list>
     </recent_temporary>
   </component>
