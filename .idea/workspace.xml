@@ -38,18 +38,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\GitHub\romance_abroad\src\test\java\com\romanceabroad\ui" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\GitHub\romance_abroad" />
       <recent name="C:\Program Files\GitHub\romance_abroad\target" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.romanceabroad.ui" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\GitHub\romance_abroad\src\test\java\com\romanceabroad\ui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BlogTests.testArticlesAndTitles (1)">
+  <component name="RunManager" selected="TestNG.PhotosTest.testUserTabs">
     <configuration name="commons-logging-1.2.jar" type="JarApplication">
       <option name="JAR_PATH" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -105,16 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Program Files/GitHub/romance_abroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPageTests.print" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
@@ -133,7 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.testSearchPageTestCase11" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PhotosTest.testUserTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTest" />
+      <option name="METHOD_NAME" value="testUserTabs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.searchDifferentResults14" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="testSearchPageTestCase11" />
+      <option name="METHOD_NAME" value="searchDifferentResults14" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PhotosTest.testUserTabs" />
+        <item itemvalue="TestNG.SearchTests.searchDifferentResults14" />
         <item itemvalue="TestNG.BlogTests.testArticlesAndTitles (1)" />
         <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.MainPageTests.print" />
-        <item itemvalue="TestNG.C:/Program Files/GitHub/romance_abroad/TestNG.xml" />
-        <item itemvalue="TestNG.SearchTests.testSearchPageTestCase11" />
       </list>
     </recent_temporary>
   </component>

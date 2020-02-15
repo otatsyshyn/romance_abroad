@@ -24,10 +24,9 @@ public class DataProviders {
         return new Object[][]{
 
                 {"18", "80", "Default"},
-                //{"18", "19", "Name"},
-                //{"30", "40", "Views"},
-                //{"60", "80", "Registration date"},
-
+                {"18", "19", "Name"},
+                {"30", "40", "Views"},
+                {"60", "80", "Registration date"},
 
         };
     }

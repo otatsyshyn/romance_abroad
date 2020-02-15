@@ -26,6 +26,7 @@ public class BaseUI {
     SearchPage searchPage;
     ContactUs contactUs;
     BlogPage blogPage;
+    PhotosPage photosPage;
     SoftAssert softAssert = new SoftAssert();
 
 
@@ -64,7 +65,7 @@ public class BaseUI {
         searchPage = new SearchPage(driver,wait);
         contactUs = new ContactUs(driver,wait);
         blogPage = new BlogPage(driver, wait);
-
+        photosPage = new PhotosPage(driver,wait);
         driver.manage().window().maximize();
         driver.get(mainUrl);
         driver.manage().deleteAllCookies();

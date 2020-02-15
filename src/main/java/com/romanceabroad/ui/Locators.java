@@ -12,8 +12,9 @@ public class Locators {
         public static final By MAIN_PAGE_LIST = By.xpath("//ul.li");
         public static final By MAIN_PAGE_TABS = By.xpath("//h1");
 
-        //Media Page
+        //Photos Page
         public static final By LINK_MEDIA = By.xpath("//a[@href='https://romanceabroad.com/media/index']");
+        public static final By LINK_TAB_USER_PROFILE= By.xpath("//ul[@id = 'gallery_filters']//a");
         public static final By LINK_VIDEO = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
 
         //Registration
@@ -37,6 +38,7 @@ public class Locators {
 
         //Search
         public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
+        public static final By TEXT_USER_INFO= By.xpath("//div[@class='text-overflow']");
         //public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search'][@id='sorter-link-4652']");
 
         public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='form-inline']//select");
@@ -61,7 +63,6 @@ public class Locators {
         //Blog page
         public static final By LINK_BLOG  = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
         public static final By LINKS_OF_ARTICLES  = By.xpath("//ul[@class='nav nav-pills nav-stacked content-pages-tree']//li");
-
 
 
     }

@@ -38,5 +38,12 @@ public class Data {
     public static final String contact_us_subject = "Test_Contact Us Subject 1";
     public static final String contact_us_message = "Happy New Year";
 
+    //User profile
+    public static final String expectedTitleAllPhotos = "Ukrainian women photos";
+    public static final String expectedTitleGallery = "Gallery";
+    public static final String expectedTitlePhotoGallery = "Photo gallery";
+    public static final String expectedTitleVideoGallery = "Video gallery";
+    public static final String expectedTitleGalleryAlbums = "Gallery albums";
+
 
 }
