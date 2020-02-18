@@ -21,10 +21,10 @@ public class SearchTests extends BaseUI{
     @Test (priority = 1, enabled = testCase11, groups = {"users", "admin"})
     public void testSearchPageTestCase11() {
         Assert.assertTrue(driver.findElement(Locators.LINK_SEARCH).isDisplayed(),"Element was not displayed");
-        searchPage.clickPrettyWomen();
-        driver.findElement(Locators.LINK_SEARCH).click();
+
         currentUrlSearch = driver.getCurrentUrl();
         System.out.println(currentUrlSearch);
+
         //Assert.assertEquals(currentUrlSearch, com.romanceabroad.ui.Data.expectedUrlSearch);
         softAssert.assertEquals(currentUrlSearch, com.romanceabroad.ui.Data.expectedUrlSearch, "Url is not correct");
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
@@ -61,9 +61,9 @@ public class SearchTests extends BaseUI{
             System.out.println(max);
 
             searchPage.clickPrettyWomen();
-            searchPage.getDropDownListByText((By) driver.findElement (Locators.DROP_DOWN_MIN_AGE),minAge);
-            searchPage.getDropDownListByText((By) driver.findElement (Locators.DROP_DOWN_LIST_SORT_BY), maxAge);
-            searchPage.getDropDownListByText((By) driver.findElement(Locators.DROP_DOWN_MAX_AGE), sortBy);
+            searchPage.getDropDownListByText((Locators.DROP_DOWN_MIN_AGE), minAge);
+            searchPage.getDropDownListByText((Locators.DROP_DOWN_MAX_AGE), maxAge);
+            searchPage.getDropDownListByText((Locators.DROP_DOWN_LIST_SORT_BY), sortBy);
             searchPage.clickSearchButton();
 
             List<WebElement> infoAboutUser = driver.findElements(Locators.TEXT_USER_INFO);
@@ -72,11 +72,12 @@ public class SearchTests extends BaseUI{
                     WebElement text = infoAboutUser.get(i);
                     wait.until(ExpectedConditions.visibilityOf(text));
                     String info = text.getText();
-                    String [] splitedPhrase = info.split (",");
+
+                    String[] splitedPhrase = info.split (", ");
                     String age = splitedPhrase [1];
                     int ageNum = Integer.parseInt(age);
                     if (min <= ageNum || ageNum <= max) {
-                        System.out.println("This age: " + ageNum + "is correct");
+                        System.out.println ("This age: " + ageNum + " is correct");
                     }else {
                         Assert.fail("Wrong age: " +ageNum);
                     }

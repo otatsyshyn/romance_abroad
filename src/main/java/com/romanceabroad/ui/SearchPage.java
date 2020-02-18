@@ -15,6 +15,6 @@ public void clickPrettyWomen(){
 
 public void clickSearchButton(){
         driver.findElement(Locators.BUTTON_SEARCH).click();
-}
+   }
 }
 

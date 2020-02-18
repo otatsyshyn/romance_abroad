@@ -20,9 +20,9 @@ public class Locators {
         //Registration
         public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
         public static final By DROP_DOWN_LIST_SELECT_DAY = By.cssSelector("#daySelect");
-        public static final By DROP_DOWN_LIST_SELECT_VALUE_DAY = By.xpath("//li[@data-handler='selectDay']//a[text()='5']");
+        public static final By DROP_DOWN_LIST_SELECT_VALUE_DAY = By.xpath("//li[@data-handler='selectDay']//a");
         public static final By DROP_DOWN_LIST_SELECT_MONTH = By.cssSelector("#monthSelect");
-        public static final By DROP_DOWN_LIST_SELECT_VALUE_MONTH = By.xpath("//li[@data-handler='selectMonth']//a[text()='Feb']");
+        public static final By DROP_DOWN_LIST_SELECT_VALUE_MONTH = By.xpath("//li[@data-handler='selectMonth']//a");
         public static final By DROP_DOWN_LIST_SELECT_YEAR = By.cssSelector("#yearSelect");
         public static final By DROP_DOWN_LIST_SELECT_VALUE_YEAR = By.cssSelector("#yearSelect");
         public static final By CHECKBOX_CONFIRMATION = By.cssSelector("input#confirmation");

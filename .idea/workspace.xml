@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PhotosTest.testUserTabs">
+  <component name="RunManager" selected="TestNG.Conditions">
     <configuration name="commons-logging-1.2.jar" type="JarApplication">
       <option name="JAR_PATH" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -88,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogTests.testArticlesAndTitles (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -97,16 +97,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.BlogTests" />
-      <option name="METHOD_NAME" value="testArticlesAndTitles" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.Conditions" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.print" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +115,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.MainPageTests" />
-      <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhotosTest.testUserTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -133,16 +131,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTest" />
-      <option name="METHOD_NAME" value="testUserTabs" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.MediaTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.searchDifferentResults14" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -151,9 +148,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="searchDifferentResults14" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PhotosTest.testUserTabs" />
-        <item itemvalue="TestNG.SearchTests.searchDifferentResults14" />
-        <item itemvalue="TestNG.BlogTests.testArticlesAndTitles (1)" />
+        <item itemvalue="TestNG.Conditions" />
         <item itemvalue="TestNG.BlogTests" />
-        <item itemvalue="TestNG.MainPageTests.print" />
+        <item itemvalue="TestNG.MainPageTests" />
+        <item itemvalue="TestNG.MediaTests" />
+        <item itemvalue="TestNG.RegistrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -195,5 +191,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

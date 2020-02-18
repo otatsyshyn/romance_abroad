@@ -14,7 +14,7 @@ public class Data {
     public static final String nickname = MainPage.generateNewNumber(nickname1part, Data.lenthSecondpartOfNickname);
 
     public static final String phone = "1234567890";
-    public static final int lenthSecondpartOfNickname = 5;
+    public static final int lenthSecondpartOfNickname = 1;
 
     public static final String day = "1";
     public static final String month = "Feb";

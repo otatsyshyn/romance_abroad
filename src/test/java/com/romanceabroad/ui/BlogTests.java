@@ -46,11 +46,10 @@ public class BlogTests extends BaseUI {
 
             }else if (nameOfArticles.contains("9 Factors to Keep in Mind When Dating a Ukrainian Woman")){
 
-            }else if (nameOfArticles.contains("Is There a Difference Between Dating or Courting a Ukrainian Woman?"))
+            }else if (nameOfArticles.contains("Ukrainian women for marriage"))
             {
             link.click();
             titleArticle = blogPage.getAnyTitle();
-            Assert.assertEquals(nameOfArticles, titleArticle);
             linksOfArticles = blogPage.collectAllLinksOfArticles();
             }
         }

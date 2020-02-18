@@ -19,15 +19,15 @@ public class PhotosTest extends BaseUI{
         for (int i = 0; i < usersTabs.size(); i++) {
             usersTabs.get(i).click();
             actualTitle = photosPage.getAnyTitle();
-            Assert.assertEquals(actualTitle, Data.expectedTitleAllPhotos);
+
 
             if (i == 0) {
                 Assert.assertEquals(actualTitle, Data.expectedTitleGallery);
             } else if (i == 1) {
                 Assert.assertEquals(actualTitle, Data.expectedTitlePhotoGallery);
-            } else if (i == 1) {
+            } else if (i == 2) {
                 Assert.assertEquals(actualTitle, Data.expectedTitleVideoGallery);
-            } else if (i == 1) {
+            } else if (i == 3) {
                 Assert.assertEquals(actualTitle, Data.expectedTitleGalleryAlbums);
             }
             usersTabs = driver.findElements(Locators.LINK_TAB_USER_PROFILE);

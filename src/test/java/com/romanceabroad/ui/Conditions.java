@@ -115,11 +115,6 @@ public class Conditions extends BaseUI {
         }
     }
 
-
-
-
-
-
     @Test
     public void test9() {
         List<Integer> crunchifyList1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40));

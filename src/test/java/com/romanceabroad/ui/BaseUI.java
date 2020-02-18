@@ -69,10 +69,11 @@ public class BaseUI {
         driver.manage().window().maximize();
         driver.get(mainUrl);
         driver.manage().deleteAllCookies();
-        driver.quit();
+
     }
     @AfterMethod
     public void afterActions() {
+        driver.quit();
     }
 }
 
