@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions">
+  <component name="RunManager" selected="TestNG.SearchTests.testSearchPageTestCase11">
     <configuration name="commons-logging-1.2.jar" type="JarApplication">
       <option name="JAR_PATH" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -139,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testSearchPageTestCase11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +148,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
+      <option name="METHOD_NAME" value="testSearchPageTestCase11" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.testSearchPageTestCase11" />
         <item itemvalue="TestNG.Conditions" />
         <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.MainPageTests" />
         <item itemvalue="TestNG.MediaTests" />
-        <item itemvalue="TestNG.RegistrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java</url>
-          <line>64</line>
+          <line>62</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

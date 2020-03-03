@@ -76,6 +76,10 @@ public class BaseActions {
     public void ajaxScroll(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
+
+    public void ajaxScroll(By locator) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(locator));
+    }
     // Implicit Wait methods
     public void javaWait(int ms) {
         System.out.println("Parent!!!");
