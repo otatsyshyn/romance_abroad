@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.testSearchPageTestCase11">
+  <component name="RunManager" selected="TestNG.PhotosTest.testUserTabs">
     <configuration name="commons-logging-1.2.jar" type="JarApplication">
       <option name="JAR_PATH" value="$USER_HOME$/Downloads/Courses/commons-logging-1.2.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -122,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PhotosTest.testUserTabs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +131,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.MediaTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTest" />
+      <option name="METHOD_NAME" value="testUserTabs" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PhotosTest.testUserTabs" />
         <item itemvalue="TestNG.SearchTests.testSearchPageTestCase11" />
         <item itemvalue="TestNG.Conditions" />
         <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.MainPageTests" />
-        <item itemvalue="TestNG.MediaTests" />
       </list>
     </recent_temporary>
   </component>

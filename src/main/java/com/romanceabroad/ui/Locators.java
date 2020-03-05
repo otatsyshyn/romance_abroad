@@ -16,6 +16,8 @@ public class Locators {
         public static final By LINK_MEDIA = By.xpath("//a[@href='https://romanceabroad.com/media/index']");
         public static final By LINK_TAB_USER_PROFILE= By.xpath("//ul[@id = 'gallery_filters']//a");
         public static final By LINK_VIDEO = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
+        public static final By PHOTO_ALBUM = By.xpath("//span[@data-click='album']");
+        public static final By PHOTO_BLOCK = By.xpath("//div[@class='g-flatty-block']");
 
         //Registration
         public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
